@@ -35,6 +35,22 @@ Learn how to use the application with provided examples and code snippets.
 
 ```kotlin
 // Example code
-fun main() {
-    // Your code here
-}
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun HomeScreen(
+    navController: NavController,
+    modifier: Modifier = Modifier
+) {
+    val context = LocalContext.current
+    var addCourseDialog by rememberSaveable {
+        mutableStateOf(false)
+    }
+    val courses  by rememberSaveable {
+        mutableStateOf(
+            mutableListOf<Course>(
+                Course("420-PPA-ID", "Profession programmer analyst", 60),
+                Course("420-ARP-ID", "Structured Approach to Problem Solving", 60),
+                Course("420-PWD-ID", "Web Programmation", 60),
+            )
+        )
+    }
