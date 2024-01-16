@@ -17,15 +17,13 @@ Explore key features, such as:
 
 Get acquainted with the technologies employed, including:
 - [Jetpack Compose](https://developer.android.com/jetpack/compose)
-- [ViewModel for Architecture](link_to_documentation)
-- [SQLite Database for Data Management](link_to_documentation)
-- [Kotlin Coroutines for Asynchronous Programming](link_to_documentation)
+- [ViewModel for Architecture](https://developer.android.com/topic/libraries/architecture/viewmodel?hl=fr)
+- [Kotlin Coroutines for Asynchronous Programming](https://kotlinlang.org/docs/async-programming.html)
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/jet-compose-values-app.git`
-2. Navigate to the project directory: `cd jet-compose-values-app`
-3. Follow the additional installation steps outlined in the [documentation](link_to_documentation).
+1. Clone the repository: `https://github.com/AxB2002/MobileValuesJetpackCompose.git`
+2. Navigate to the project directory.
 
 ## Configuration
 
